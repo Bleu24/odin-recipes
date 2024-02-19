@@ -75,5 +75,10 @@ a.listlink:hover {
     color: white;
 }
 
+#home:hover {
+    color: goldenrod;
+    transition-duration: 900ms;
+}
+
 
 
