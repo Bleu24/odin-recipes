@@ -3,9 +3,17 @@
     box-sizing: border-box;
 }
 
+
 .headers {
     color: white;
 }
+
+.main {
+    margin-left: 5em;
+}
+
+
+
 
 .important {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -16,6 +24,7 @@ li,p {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 .list-home {
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +45,35 @@ li,p {
     margin-bottom: 2em;
 }
 
-.bckbtn{
-    background-color: brown;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 1em;
+   padding-right: 5em;
+   margin-bottom: 5em;
+
 }
+
+a.listlink{
+    margin: 1em;
+    background-color: goldenrod;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+a.listlink:hover {
+    background-color: rgb(255, 157, 127);
+    transition-duration: 0.92s;
+}
+
+#home {
+    text-decoration: none;
+    color: white;
+}
+
+
+
